@@ -1,0 +1,9 @@
+# Altitude and vertical velocity of the rocket
+
+# Altitude in meters
+uavcan.si.unit.length.Scalar.1.0 altitude
+
+# Velocity in meters per second
+uavcan.si.unit.velocity.Scalar.1.0 velocity
+
+@sealed

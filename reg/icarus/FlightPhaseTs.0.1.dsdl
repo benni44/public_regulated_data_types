@@ -1,0 +1,7 @@
+# Current flight phase with synchronized timestamp
+
+FlightPhase.0.1 phase
+
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+@sealed

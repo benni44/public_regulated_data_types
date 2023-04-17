@@ -1,0 +1,23 @@
+# Flight phase of a rocket as defined by the ICARUS state machine
+
+uint8 phase
+
+# Nominal phases for single stage, singel deployment rocket
+uint8 START = 0
+uint8 PRELAUNCH = 1
+uint8 POWERED_ASCEND = 2
+uint8 COASTING_ASCEND = 3
+uint8 UNBRAKED_DESCEND = 4
+uint8 CHUTE_1_DEPLOY = 5
+uint8 LANDED = 6
+
+# Extended nominal phases for two stage, double deployment rocket
+uint8 MOTOR_2_IGNITION = 10
+uint8 COASTING_ASCEND_2 = 11
+uint8 CHUTE_2_DEPLOY = 12
+
+# Failure states
+uint8 ABORT_LAUNCH = 20
+uint8 CHUTE_FAILURE = 21
+
+@sealed

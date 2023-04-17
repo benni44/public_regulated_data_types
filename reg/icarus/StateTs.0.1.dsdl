@@ -1,0 +1,7 @@
+# Current altitude and velocity of the rocket with timestamp
+
+State.0.1 state
+
+uavcan.time.SynchronizedTimestamp.1.0 timestamp
+
+@sealed
